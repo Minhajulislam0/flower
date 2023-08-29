@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: #f6bcc9;
+}
+
+.main-text {
+  width: 40%;
+  height: auto;
+}
+
+.main-text h1 {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.main-text p {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main-text button {
+  border: none;
+  background: rgb(235, 86, 86);
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+}
+
+.main-img {
+  width: 50%;
+  height: 100%;
+}
+
+.deals {
+  background-color: #f9d8df;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.deals-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.deals-text h3 {
+  padding-bottom: 20px;
+}
+
+.deals-text h3 span {
+  color: red;
+}
+
+.deals-text p {
+  width: 70%;
+  padding-bottom: 10px;
+}
+
+.deals-text button {
+  border: none;
+  background: rgb(235, 86, 86);
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+}
+
+.deals-img {
+  width: 200px;
+  margin-right: 100px;
+}
+
+.social {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.social p {
+  width: 40%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+
+.images img {
+  width: 200px;
+  height: 200px;
+  margin-right: 0px;
+}
+
+.latest-deals {
+  background-image: url(../Asset/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.latest-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.latest-input {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.latest-input input {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
+
+.latest-deals button {
+  border: none;
+  background: rgb(235, 86, 86);
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: white;
+  margin-left: 5px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 150px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h1 span {
+  color: rgb(237, 145, 161);
+}
+
+footer p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
